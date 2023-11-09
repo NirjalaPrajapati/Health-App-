@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Ticketing</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header-grid navigation">
+        <img src="/images/logo.png" alt="Logo" class="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="#">Report</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </div>
+
+      <div class="steps-container">
+        <div class="steps">
+          <h2>Follow these easy steps</h2>
+
+          <div class="diffsteps">
+            <p>Select a Department</p>
+            <img src="/images/select.gif" class="decImage" />
+          </div>
+
+          <div class="diffsteps">
+            <p>Select a Doctor</p>
+            <img src="/images/doctor.png" class="decImage" />
+          </div>
+
+          <div class="diffsteps">
+            <p>Select a Time Slot</p>
+            <img src="/images/time.png" class="decImage" />
+          </div>
+
+          <div class="diffsteps">
+            <p>Provide your Personal Information</p>
+            <img src="/images/personalinfo.png" class="decImage" />
+          </div>
+
+          <div class="diffsteps">
+            <p>Get Appointment confirmation</p>
+            <img src="/images/confirm.png" class="decImage" />
+          </div>
+        </div>
+
+        <div class="appointmentDate-container">
+          <div class="row">
+            <div class="col-5">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="">Appointment Date</span>
+                </div>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="col-4">
+              <p>Appointment Day: Sunday</p>
+            </div>
+            <div class="col-3">
+              <p>Available Token: 20</p>
+            </div>
+          </div>
+          <h3 class="my-4">Select a time slot</h3>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Token no.</th>
+                <th scope="col">Registration time</th>
+                <th scope="col">Doctor meet-up time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>8:45 AM</td>
+                <td><a href="personalDetail.html">9:00 AM</a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>9:45 AM</td>
+                <td>10:00 AM</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
